@@ -1,0 +1,15 @@
+info:
+  description: Thomas' config sample
+  url: https://git01.ops.medplus.com/hcp/scratch-config-repo
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+---
+spring:
+  profiles: cloud
+  cloud:
+    config:
+      uri: https://git01.ops.medplus.com/hcp/scratch-config-repo
+
