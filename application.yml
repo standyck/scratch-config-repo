@@ -1,28 +1,24 @@
 info:
   description: Thomas' config sample
   url: https://git01.ops.medplus.com/hcp/scratch-config-repo
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
 
 greeting:
-  title: This is the CONFIG1 REPO title
-  message: And this is the  CONFIG1 REPO message
+  title: This is the default REPO title
+  message: And this is the  default REPO message
 
 ---
 spring:
-  profiles: cloud
-  cloud:
-    config:
-      uri: https://git01.ops.medplus.com/hcp/scratch-config-repo
-key123: cloudkey
+  profiles: prof1
+  
+greeting:
+  title: This is the prof1 REPO title
+  message: And this is the prof1 REPO message
 
 ---
 spring:
-  profiles: wolke
-  cloud:
-    config:
-      uri: https://git01.ops.medplus.com/hcp/scratch-config-repo
-key123: wolkekey
+  profiles: prof2
+  
+greeting:
+  title: This is the prof2 REPO title
+  message: And this is the prof2 REPO message
 
