@@ -6,6 +6,8 @@ greeting:
   title: This is the default REPO title
   message: And this is the  default REPO message
 
+owner: Thomas
+
 ---
 spring:
   profiles: prof1
@@ -14,6 +16,8 @@ greeting:
   title: This is the prof1 REPO title
   message: And this is the prof1 REPO message
 
+owner: Thomas Profile 1
+
 ---
 spring:
   profiles: prof2
@@ -21,4 +25,6 @@ spring:
 greeting:
   title: This is the prof2 REPO title
   message: And this is the prof2 REPO message
+
+owner: Thomas Profile 2
 
