@@ -19,6 +19,6 @@ spring:
   profiles: prof2
   
 greeting:
-  title: This is the prof2 REPO title
-  message: And this is the prof2 REPO message
+  title: This is the NEW NEW prof2 REPO title
+  message: And this is the NEW NEW prof2 REPO message
 
